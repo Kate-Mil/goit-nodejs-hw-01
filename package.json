@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Kate-Mil/goit-nodejs-hw-01#readme",
   "dependencies": {
+    "commander": "^11.0.0",
     "nanoid": "^5.0.1",
     "yargs": "^17.7.2"
   },

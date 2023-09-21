@@ -1,8 +1,7 @@
 import * as contactsService from "./contacts.js";
 import yargs from "yargs";
 
-const { argv } = yargs(process.argv);
-console.log(argv);
+const { argv } = yargs(process.argv.slice(2));
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
