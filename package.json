@@ -20,7 +20,9 @@
     "url": "https://github.com/Kate-Mil/goit-nodejs-hw-01/issues"
   },
   "homepage": "https://github.com/Kate-Mil/goit-nodejs-hw-01#readme",
-  "dependencies": {},
+  "dependencies": {
+    "nanoid": "^5.0.1"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
