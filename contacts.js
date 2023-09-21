@@ -25,7 +25,6 @@ export async function removeContact(contactId) {
     return null;
   }
   const [result] = contacts.splice(index, 1);
-  //   const filteredContacts = contacts.filter((item) => item.id !== contactId);
   await updatelistContacts(contacts);
   return result;
 }
